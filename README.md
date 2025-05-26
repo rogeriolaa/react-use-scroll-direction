@@ -4,10 +4,10 @@ This monorepo contains the `@n0n3br/use-scroll-direction` React hook and an exam
 
 ## Packages
 
-*   **`packages/use-scroll-direction`**: The core React hook for detecting vertical scroll direction.
-*   **`apps/example`**: A Vite + React + Tailwind CSS application showcasing the hook's features.
-*   **`configs/tsconfig`**: Shared TypeScript configurations.
-*   **`configs/eslint-config-custom`**: Shared ESLint configuration.
+- **`packages/use-scroll-direction`**: The core React hook for detecting vertical scroll direction.
+- **`apps/example`**: A Vite + React + Tailwind CSS application showcasing the hook's features.
+- **`configs/tsconfig`**: Shared TypeScript configurations.
+- **`configs/eslint-config-custom`**: Shared ESLint configuration.
 
 ## Development
 
@@ -15,8 +15,8 @@ This project uses [pnpm](https://pnpm.io/) as its package manager.
 
 ### Prerequisites
 
-*   Node.js (LTS version recommended)
-*   pnpm (version 8.6.0 or higher)
+- Node.js (LTS version recommended)
+- pnpm (version 8.6.0 or higher)
 
 ### Installation
 
@@ -32,13 +32,13 @@ This project uses [pnpm](https://pnpm.io/) as its package manager.
 
 ### Available Scripts
 
-*   `pnpm build`: Builds the `@n0n3br/use-scroll-direction` package.
-*   `pnpm dev`: Starts the example application in development mode (usually on `http://localhost:3000`).
-*   `pnpm lint`: Lints all packages.
-*   `pnpm test`: Runs tests for the `@n0n3br/use-scroll-direction` package.
-*   `pnpm test:watch`: Runs tests in watch mode for the `@n0n3br/use-scroll-direction` package.
-*   `pnpm clean`: Removes `dist` and `node_modules` folders from all packages.
-*   `pnpm typecheck`: Runs TypeScript type checking for all packages.
+- `pnpm build`: Builds the `@n0n3br/use-scroll-direction` package.
+- `pnpm dev`: Starts the example application in development mode (usually on `http://localhost:3000`).
+- `pnpm lint`: Lints all packages.
+- `pnpm test`: Runs tests for the `@n0n3br/use-scroll-direction` package.
+- `pnpm test:watch`: Runs tests in watch mode for the `@n0n3br/use-scroll-direction` package.
+- `pnpm clean`: Removes `dist` and `node_modules` folders from all packages.
+- `pnpm typecheck`: Runs TypeScript type checking for all packages.
 
 ### Running the Example App
 
@@ -63,6 +63,10 @@ The output will be in the `packages/use-scroll-direction/dist` directory.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
+## Live Example
+
+Check out the live example application deployed on GitHub Pages: [https://rogeriolaa.github.io/react-use-scroll-direction/](https://rogeriolaa.github.io/react-use-scroll-direction/)
 
 ## License
 
