@@ -1,0 +1,21 @@
+{
+  "name": "react-use-scroll-direction-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter @n0n3br/use-scroll-direction build",
+    "dev": "pnpm --filter example dev",
+    "lint": "pnpm --parallel lint",
+    "test": "pnpm --filter @n0n3br/use-scroll-direction test",
+    "test:watch": "pnpm --filter @n0n3br/use-scroll-direction test:watch",
+    "clean": "pnpm --parallel clean && rm -rf node_modules",
+    "typecheck": "pnpm --parallel tsc --noEmit"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "pnpm@8.6.0"
+}
