@@ -1,4 +1,4 @@
-# @n0n3br/use-scroll-direction
+# @n0n3br/react-use-scroll-direction
 
 [![npm version](https://badge.fury.io/js/%40n0n3br%2Fuse-scroll-direction.svg)](https://badge.fury.io/js/%40n0n3br%2Fuse-scroll-direction)
 
@@ -30,7 +30,7 @@ yarn add @n0n3br/react-use-scroll-direction
 
 ```tsx
 import React from "react";
-import { useScrollDirection } from "@n0n3br/use-scroll-direction";
+import { useScrollDirection } from "@n0n3br/react-use-scroll-direction";
 
 const App = () => {
   const scrollDirection = useScrollDirection();
@@ -50,7 +50,7 @@ export default App;
 
 ```tsx
 import React, { useRef } from "react";
-import { useScrollDirection } from "@n0n3br/use-scroll-direction";
+import { useScrollDirection } from "@n0n3br/react-use-scroll-direction";
 
 const App = () => {
   const scrollableRef = useRef<HTMLDivElement | null>(null);
@@ -83,7 +83,7 @@ export default App;
 
 ```tsx
 import React, { useRef } from "react";
-import { useScrollDirection } from "@n0n3br/use-scroll-direction";
+import { useScrollDirection } from "@n0n3br/react-use-scroll-direction";
 
 const App = () => {
   const scrollableRef = useRef<HTMLDivElement | null>(null);
