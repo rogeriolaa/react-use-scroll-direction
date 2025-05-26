@@ -143,7 +143,7 @@ export interface UseScrollDirectionOptions {
 
 ## Live Example
 
-[Link to Live Example App](#) (To be added once the example app is deployed)
+[Example app](https://rogeriolaa.github.io/react-use-scroll-direction/)
 
 ## Contributing
 
