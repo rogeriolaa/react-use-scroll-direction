@@ -1,5 +1,5 @@
 {
-  "name": "@n0n3br/use-scroll-direction",
+  "name": "@n0n3br/react-use-scroll-direction",
   "version": "0.1.0",
   "description": "A robust React hook to detect vertical scroll direction ('up', 'down', 'static') for any DOM element or the window.",
   "main": "dist/index.cjs",
