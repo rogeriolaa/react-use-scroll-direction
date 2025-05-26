@@ -9,19 +9,19 @@ A robust React hook to detect vertical scroll direction (`'up'`, `'down'`, `'sta
 Using pnpm:
 
 ```bash
-pnpm add @n0n3br/use-scroll-direction
+pnpm add @n0n3br/react-use-scroll-direction
 ```
 
 Using npm:
 
 ```bash
-npm install @n0n3br/use-scroll-direction
+npm install @n0n3br/react-use-scroll-direction
 ```
 
 Using yarn:
 
 ```bash
-yarn add @n0n3br/use-scroll-direction
+yarn add @n0n3br/react-use-scroll-direction
 ```
 
 ## Usage
